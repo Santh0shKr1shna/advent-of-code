@@ -53,6 +53,8 @@ class TestSuite(unittest.TestCase):
         for line in file.readlines():
             self.reports.append(list(map(int, line.strip().split(' '))))
 
+        file.close()
+
     def test_part_one_happy_path_true(self):
         expected = 2
         self.assertEqual(part_one(self.reports), expected)
