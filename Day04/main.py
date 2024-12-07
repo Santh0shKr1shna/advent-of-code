@@ -54,12 +54,12 @@ class TestSuite(unittest.TestCase):
         file.close()
 
     def test_part_one(self):
-        excepted = 18
-        self.assertEqual(part_one(self.grid), excepted)
+        expected = 18
+        self.assertEqual(part_one(self.grid), expected)
 
     def test_part_two(self):
-        excepted = 9
-        self.assertEqual(part_two(self.grid), excepted)
+        expected = 9
+        self.assertEqual(part_two(self.grid), expected)
 
 
 if __name__ == "__main__":
