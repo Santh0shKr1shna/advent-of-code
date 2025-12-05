@@ -76,8 +76,8 @@ class TestSuite(unittest.TestCase):
         self.assertEqual(part_one(self.grid), expected)
 
     def test_part_two_solution(self):
-        excepted = 43
-        self.assertEqual(part_two(self.grid), excepted)
+        expected = 43
+        self.assertEqual(part_two(self.grid), expected)
 
 if __name__ == "__main__":
     unittest.main()

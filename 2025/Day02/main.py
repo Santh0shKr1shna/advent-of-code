@@ -47,8 +47,8 @@ class TestSuite(unittest.TestCase):
         self.assertEqual(part_one(self.id_ranges), expected)
 
     def test_part_two_solution(self):
-        excepted = 4174379265
-        self.assertEqual(part_two(self.id_ranges), excepted)
+        expected = 4174379265
+        self.assertEqual(part_two(self.id_ranges), expected)
 
 if __name__ == "__main__":
     unittest.main()

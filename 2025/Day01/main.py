@@ -57,8 +57,8 @@ class TestSuite(unittest.TestCase):
         self.assertEqual(part_one(self.inputs), expected)
 
     def test_part_two_solution(self):
-        excepted = 6
-        self.assertEqual(part_two(self.inputs), excepted)
+        expected = 6
+        self.assertEqual(part_two(self.inputs), expected)
 
 if __name__ == "__main__":
     unittest.main()

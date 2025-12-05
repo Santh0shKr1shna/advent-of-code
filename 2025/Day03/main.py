@@ -49,8 +49,8 @@ class TestSuite(unittest.TestCase):
         self.assertEqual(part_one(self.banks), expected)
 
     def test_part_two_solution(self):
-        excepted = 3121910778619
-        self.assertEqual(part_two(self.banks), excepted)
+        expected = 3121910778619
+        self.assertEqual(part_two(self.banks), expected)
 
 if __name__ == "__main__":
     unittest.main()
